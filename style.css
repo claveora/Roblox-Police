@@ -78,9 +78,9 @@
 }
 @media (max-width: 600px){
     .logo{
-        text-align: justify;
         font-size: 15px;
         display: flex;
+        text-align: justify;
         justify-content: center;
         align-items: center;
     }

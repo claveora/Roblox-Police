@@ -1,0 +1,91 @@
+.home{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    color: black;
+}
+.rul1{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px; 
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #0563df; 
+    border-radius: 50%;
+    overflow: hidden;
+}
+.paragraf{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1{
+    margin-right: 10px;
+    padding: 10px 24px;
+    background-color: rgb(242, 0, 0);
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: white;
+    color:  rgb(242, 0, 0);
+    border: 2px solid black;
+}
+.btn-2{
+    margin-left: 10px;
+    padding: 10px 24px;
+    background-color:  rgb(60, 0, 242);
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: white;
+    color:  rgb(60, 0, 242);
+    border: 2px solid black;
+}
+@media (max-width: 600px){
+    .logo{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        height: 250px;
+        width: 250px;
+    }
+    
+}
